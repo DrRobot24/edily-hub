@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <>
       <a href="#" className="fixed top-8 left-8 md:top-10 md:left-12 z-[60] block group">
-        <img src="/super_logo1.png" alt="Edily Logo" className="w-24 md:w-40 h-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+        <img src="/logo_ghost.png" alt="Edily Logo" className="w-24 md:w-40 h-auto object-contain transition-transform duration-500 group-hover:scale-105" />
       </a>
 
       <nav className="fixed top-8 right-8 md:top-10 md:right-12 z-50 rounded-[2rem] border border-transparent transition-colors duration-500" ref={navRef}>
@@ -487,7 +487,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12 mb-20">
         <div className="max-w-sm">
           <div className="font-sans font-bold text-3xl tracking-tight flex items-center gap-3 mb-6">
-            <img src="/super_logo1.png" alt="Edily Logo" className="w-12 h-12 object-contain rounded-md" />
+            <img src="/logo_ghost.png" alt="Edily Logo" className="w-12 h-12 object-contain rounded-md" />
             EDILY
           </div>
           <p className="text-textMuted text-sm font-sans mb-8">Non costruiamo cose soltanto, ma troviamo soluzioni. Architettura d'avanguardia per chi pretende l'eccellenza.</p>
