@@ -25,10 +25,6 @@ const Navbar = () => {
 
   return (
     <>
-      <a href="#" className="fixed top-8 left-8 md:top-10 md:left-12 z-[60] block group">
-        <img src="/logo_ghost.png" alt="Edily Logo" className="w-24 md:w-40 h-auto object-contain transition-transform duration-500 group-hover:scale-105" />
-      </a>
-
       <nav className="fixed top-8 right-8 md:top-10 md:right-12 z-50 rounded-[2rem] border border-transparent transition-colors duration-500" ref={navRef}>
         <div className="px-6 py-3 flex items-center gap-8">
           <div className="hidden md:flex items-center gap-6 font-mono text-sm uppercase tracking-widest text-textMuted">
@@ -76,6 +72,10 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 max-w-4xl w-full flex flex-col items-start gap-6 hero-content">
+        <div className="hero-element mb-12 lg:mb-16 -mt-12 lg:-mt-24 drop-shadow-2xl">
+          <img src="/logo_ghost.png" alt="Edily Logo" className="w-48 md:w-[22rem] h-auto object-contain" />
+        </div>
+
         <div className="hero-element inline-flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md">
           <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
           <span className="font-mono text-xs text-textMuted tracking-wider uppercase">Architettura Pura</span>
