@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowRight, ChevronRight, CheckCircle2, Navigation, Activity, CalendarDays, MousePointer2 } from 'lucide-react';
-import logoGhost from './assets/logo_ghost.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -74,7 +73,7 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-4xl w-full flex flex-col items-start gap-6 hero-content">
         <div className="hero-element mb-12 lg:mb-16 -mt-12 lg:-mt-24 drop-shadow-2xl">
-          <img src={logoGhost} alt="Edily Logo" className="w-48 md:w-[22rem] h-auto object-contain" />
+          <img src="/brand-logo-main.png" alt="Edily Logo" className="w-48 md:w-[22rem] h-auto object-contain" />
         </div>
 
         <div className="hero-element inline-flex items-center gap-3 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md">
@@ -488,7 +487,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12 mb-20">
         <div className="max-w-sm">
           <div className="font-sans font-bold text-3xl tracking-tight flex items-center gap-3 mb-6">
-            <img src={logoGhost} alt="Edily Logo" className="w-12 h-12 object-contain rounded-md" />
+            <img src="/brand-logo-main.png" alt="Edily Logo" className="w-12 h-12 object-contain rounded-md" />
             EDILY
           </div>
           <p className="text-textMuted text-sm font-sans mb-8">Non costruiamo cose soltanto, ma troviamo soluzioni. Architettura d'avanguardia per chi pretende l'eccellenza.</p>
